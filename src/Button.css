@@ -1,0 +1,18 @@
+.button {
+  height: 5em;
+  width: 5em;
+  background-color: rgba(200, 200, 200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.01em solid rgba(0, 0, 0, 0.1);
+}
+.clear {
+  width: 10em;
+}
+.button:hover {
+  cursor: pointer;
+}
+.operator {
+  background-color: rgb(255, 81, 0);
+}

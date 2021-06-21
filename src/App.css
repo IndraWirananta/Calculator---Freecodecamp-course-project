@@ -1,0 +1,26 @@
+* {
+  border: none;
+  margin: none;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex: 3;
+}
+.display-wrapper {
+  height: 8em;
+  width: 20em;
+  background-color: rgba(150, 150, 150);
+  border: 0.02em solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.display {
+  margin-right: 5px;
+  margin-left: 5px;
+  max-height: 20px;
+  font-size: 1.5em;
+}
+
